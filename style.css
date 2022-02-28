@@ -1,0 +1,256 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.padding {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+html {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(135deg, #cbc3e3, #add8e6, #90ee90, #ffff99, #ffd580, #ff7f7f);
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+/* introduction picture */
+.city {
+  max-width: 100%;
+  position: relative;
+  margin: 10px 0 0 0;
+}
+
+/* bio picture */
+.circle {
+  border-radius: 50%;
+  max-width: 20%;
+}
+
+@media (max-width: 768px) {
+  .circle {
+    border-radius: 50%;
+    max-width: 40%;
+  }
+}
+
+@media (min-width: 960px) and (max-width: 1200px) {
+  .circle {
+    border-radius: 50%;
+    max-width: 30%;
+  }
+}
+
+/* artist of the month */
+.artist {
+  max-width: 75%;
+  position: relative;
+}
+
+* {
+  box-sizing: border-box
+}
+
+/* Slideshow container */
+.container {
+  max-width: 100%;
+  position: relative;
+  margin: 10px 0 0 0;
+}
+
+/* Next & previous buttons */
+.previousImage, .nextImage {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.nextImage {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.previousImage:hover, .nextImage:hover {
+  background: #000000;
+  opacity: 0.8;
+}
+
+/* Hide the images by default */
+.slides {
+  display: none;
+}
+
+/* Caption text */
+.artist-caption {
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* biography paragraph */
+.bio {
+  width: 99%;
+}
+
+/* Navigation bar */
+.NavBar {
+  overflow: hidden;
+  background-color: #add8e6;
+}
+
+.NavBar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #00add0;
+  color: black;
+}
+
+.NavBar .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropdownButton {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #add8e6;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.NavBar a:hover, .dropdown:hover .dropdownButton {
+  background-color: #00add0;
+  color: black;
+}
+
+.dropdown-content a:hover {
+  background-color: #00add0;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .NavBar a:not(:first-child), .dropdown .dropdownButton {
+    display: none;
+  }
+  .NavBar a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .NavBar.responsive {position: relative;}
+  .NavBar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .NavBar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .NavBar.responsive .dropdown {float: none;}
+  .NavBar.responsive .dropdown-content {position: relative;}
+  .NavBar.responsive .dropdown .dropdownButton {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+/* instagram */
+.fa {
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-instagram {
+  color: black;
+}
+
+/* footer */
+footer {
+  position: absolute;
+  right: 0;
+  left: 0;
+  color: black;
+  text-align: left;
+}
