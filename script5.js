@@ -3,7 +3,12 @@ var images = [
   "./images/Chinatown.jpg",
   "./images/ForestHills.jpg",
   "./images/RooseveltIsland.jpg",
-  "./images/QueensboroughLibrary.jpg"];
+  "./images/QueensboroughLibrary.jpg",
+  "./images/AirBnB.jpg",
+  "./images/Route28.jpg",
+  "./images/Margeretville.jpg",
+  "./images/IceCream.jpg"
+];
 
 var num = 0;  // num holds the current image
 
