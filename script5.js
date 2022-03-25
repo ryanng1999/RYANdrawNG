@@ -7,7 +7,16 @@ var images = [
   "./images/AirBnB.jpg",
   "./images/Route28.jpg",
   "./images/Margeretville.jpg",
-  "./images/IceCream.jpg"
+  "./images/IceCream.jpg",
+  "./images/FreeMoney.jpg",
+  "./images/ServiceWorker.jpg",
+  "./images/Horse.jpg",
+  "./images/Coding.jpg",
+  "./images/NassauMuseum.jpg",
+  "./images/1960sDiner.jpg",
+  "./images/DistrictSaigon.jpg",
+  "./images/Taichi.jpg",
+  "./images/Brightliner.jpg"
 ];
 
 var num = 0;  // num holds the current image
