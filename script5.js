@@ -1,22 +1,16 @@
 var images = [
-  "./images/PlazaHotel.jpg",
-  "./images/Chinatown.jpg",
-  "./images/ForestHills.jpg",
-  "./images/RooseveltIsland.jpg",
-  "./images/QueensboroughLibrary.jpg",
-  "./images/AirBnB.jpg",
-  "./images/Route28.jpg",
-  "./images/Margeretville.jpg",
-  "./images/IceCream.jpg",
-  "./images/FreeMoney.jpg",
-  "./images/ServiceWorker.jpg",
-  "./images/Horse.jpg",
-  "./images/Coding.jpg",
-  "./images/NassauMuseum.jpg",
-  "./images/1960sDiner.jpg",
-  "./images/DistrictSaigon.jpg",
-  "./images/Taichi.jpg",
-  "./images/Brightliner.jpg"
+  "./images/brooklynbridge.jpg",
+  "./images/chinatown.png",
+  "./images/railroadtracks.jpg",
+  "./images/brightliner.png",
+  "./images/1960sdiner.jpg",
+  "./images/essentialworkers.png",
+  "./images/shaul.png",
+  "./images/freemoney.png",
+  "./images/horses.jpg",
+  "./images/birds.png",
+  "./images/afternoonwalk.png",
+  "./images/QCClibrary.png"
 ];
 
 var num = 0;  // num holds the current image
