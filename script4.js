@@ -1,23 +1,44 @@
-var slideIndex = 1;
-presentSlides(slideIndex);
+var images = [
+  "./images/brooklynbridge.jpg",
+  "./images/chinatown.png",
+  "./images/railroadtracks.jpg",
+  "./images/brightliner.png",
+  "./images/1960sdiner.jpg",
+  "./images/essentialworkers.png",
+  "./images/shaul.png",
+  "./images/freemoney.png",
+  "./images/horses.jpg",
+  "./images/birds.png",
+  "./images/afternoonwalk.png",
+  "./images/QCClibrary.png"
+];
 
-// Next/previous controls
-function addSlides(n) {
-  presentSlides(slideIndex += n);
-}
+var num = 0;  // num holds the current image
 
-// Thumbnail image controls
-function shownSlide(n) {
-  presentSlides(slideIndex = n);
-}
+function nextImage()
+{
+  var slider = document.getElementById('ImageSlider');
+  num++;
 
-function presentSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("slides");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
+  // is the image's new position greater or equal to the amount of images used?
+  if(num >= images.length)  // images is the defined arary
+  {
+    num = 0;
+    // if the condition is true, num is defined to hold to first image of the slider
   }
-  slides[slideIndex-1].style.display = "block";
+  slider.src = images[num];
+}
+
+function previousImage()
+{
+  var slider = document.getElementById('ImageSlider');
+  num--;
+
+  // is the image's new position before or after the first image?
+  if(num < 0) // images is the defined array
+  {
+    num = images.length-1;
+    // if the condition is true, num is defined to hold to last image of the slider
+  }
+  slider.src = images[num];
 }
