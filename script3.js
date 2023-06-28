@@ -7,7 +7,9 @@ var images = [
   "./images/Boxer.png",
   "./images/Relaxed.jpeg",
   "./images/RandomObjects.jpg",
-  "./images/KitchenObjects.jpg"];
+  "./images/KitchenObjects.jpg",
+  "./images/DuanePark.JPEG",
+  "./images/DivisionStreet.JPEG"];
 
 var num = 0;  // num holds the current image
 
