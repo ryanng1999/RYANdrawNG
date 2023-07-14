@@ -45,16 +45,6 @@ html {
   }
 }
 
-/* artist of the month */
-.artist {
-  max-width: 75%;
-  position: relative;
-}
-
-* {
-  box-sizing: border-box
-}
-
 /* Slideshow container */
 .container {
   max-width: 100%;
@@ -93,16 +83,6 @@ html {
 /* Hide the images by default */
 .slides {
   display: none;
-}
-
-/* Caption text */
-.artist-caption {
-  color: black;
-  font-size: 15px;
-  padding: 8px 12px;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
 }
 
 /* Fading animation */
