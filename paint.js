@@ -2,7 +2,9 @@ var images = [
   "./images/PearsAndFruits.jpg",
   "./images/GoldenStillLife.jpg",
   "./images/PumpkinStillLife.jpg",
-  "./images/FruitPlate.jpg"];
+  "./images/FruitPlate.jpg",
+  "./images/Beak.png"
+];
 
 var num = 0;  // num holds the current image
 

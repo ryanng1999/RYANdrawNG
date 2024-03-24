@@ -10,7 +10,8 @@ var images = [
   "./images/DiningRoom.jpeg",
   "./images/deGrom.jpg",
   "./images/135Division.png",
-  "./images/Chelsea.jpg"];
+  "./images/Chelsea.jpg"
+];
 
 var num = 0;  // num holds the current image
 
