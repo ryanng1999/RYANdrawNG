@@ -2,14 +2,13 @@ var images = [
   "./images/Neutronized.jpg",
   "./images/DolaSunInspired.jpeg",
   "./images/WonderfulChristmastime.png",
-  "./images/FutureNYC.png",
+  "./images/R211.png",
   "./images/R40Slant.jpg",
   "./images/R32.jpg",
   "./images/Spidey.png",
   "./images/CollegeLife.jpeg",
   "./images/DiningRoom.jpeg",
   "./images/deGrom.jpg",
-  "./images/135Division.png",
   "./images/Chelsea.jpg"
 ];
 
